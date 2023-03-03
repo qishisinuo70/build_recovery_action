@@ -110,7 +110,7 @@ jobs:
     - name: Upload to Release
       uses: actions/upload-artifact@v3
       with:
-        path: workspace/out/target/product/chopin/boot.img
+        path: workspace/out/target/product/xaga/boot.img
         name: boot.img
         
 
